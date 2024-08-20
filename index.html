@@ -393,8 +393,70 @@ nav .fa-regular{
     .contact-left, .contact-right{
         flex-basis: 100%;
     }
+	/* Header logo styling */
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 120px; /* Adjust the size as needed */
+    height: auto;
+    cursor: pointer;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* Ensure the logo and navigation align correctly */
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.header-container .logo-container {
+    flex: 1;
+}
+
     
 }
+/* Header logo styling */
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 120px; /* Adjust the size as needed */
+    height: auto;
+    cursor: pointer;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* Ensure the logo and navigation align correctly */
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.header-container .logo-container {
+    flex: 1;
+}
+
 
 </style>
 <html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -443,27 +505,31 @@ nav .fa-regular{
         <a href="#" class="apihu-port-scroll-top" style="display: none;"><i class="fas fa-chevron-up"></i></a>
 
 		<!-- Header Start -->
-		<header class="apihu-port-header-area">
-			<div class="container">
-				<div class="row">
-					
-					<div class="col-xl-8 d-none d-lg-block text-center col-lg-8">
-						<div class="apihu-port-main-navigation">
-							<ul>
-								<li><a href="#">Home</a></li>
-								<li><a href="#apihu-port-resume">About</a></li>
-								<li><a href="#apihu-port-feature">Projects</a></li>
-								<li><a href="#apihu-port-pricing-area">Qualifications</a></li>
-								<li><a href="#contact-details">Contact</a></li>
-								
-							</ul>
-						</div>
-					</div>
-					
-				</div>
-			</div>
-		</header>
-		<!-- Header End -->
+<header class="apihu-port-header-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-2 col-lg-2">
+                <!-- Logo -->
+                <div class="logo-container">
+                    <img src="./assets/sk_logo1.jpg" alt="Sk Logo" class="logo">
+                </div>
+            </div>
+            <div class="col-xl-8 d-none d-lg-block text-center col-lg-8">
+                <div class="apihu-port-main-navigation">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#apihu-port-resume">About</a></li>
+                        <li><a href="#apihu-port-feature">Projects</a></li>
+                        <li><a href="#apihu-port-pricing-area">Qualifications</a></li>
+                        <li><a href="#contact-details">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- Header End -->
+
 
 		<!-- Mobile Menu -->
 		<div class="apihu-port-mobile-menu">
